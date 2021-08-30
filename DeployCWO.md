@@ -67,11 +67,5 @@
    - https://cwo-420-win-jp.azurewebsites.net
 
 ## Link
-- Cluster WebUI Offline
-  - The following containers run with Fukunaga's Visual Studio account. If the cost reaches the limit, the containers stop.
-    - CLUSTERPRO X 4.2 for Windows
-      - https://cwo-420-win-jp.azurewebsites.net
-    - CLUSTERPRO X 4.2 for Linux
-      - https://cwo-420-lin-jp.azurewebsites.net
 - Migrate custom software to Azure App Service using a custom container
   - https://docs.microsoft.com/en-us/azure/app-service/tutorial-custom-container?pivots=container-linux
