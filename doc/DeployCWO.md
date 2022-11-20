@@ -28,24 +28,24 @@
 1. Download [Dockerfile](https://github.com/EXPRESSCLUSTER/App-Service/tree/main/Dockerfile/cwo/4.2.2) and build the container image.
    - CLUSTERPRO X 4.2 for Windows
      ```sh
-     # docker build -t cwo-420-win-jp:4.2.1-200401-1 .
+     docker build -t cwo-420-win-jp:4.2.1-200401-1 .
      ```
    - CLUSTERPRO X 4.2 for Linux
      ```sh
-     # docker build -t cwo-420-lin-jp:4.2.1-200401-1 .
+     docker build -t cwo-420-lin-jp:4.2.1-200401-1 .
      ```
 1. Change the tag as below.
    ```sh
-   # docker tag cwo-420-win-jp:4.2.1-200401-1 <your registry name>.azurecr.io/cwo-420-win-jp:4.2.1-200401-1
+   docker tag cwo-420-win-jp:4.2.1-200401-1 <your registry name>.azurecr.io/cwo-420-win-jp:4.2.1-200401-1
    ```
 1. Login to your registry.
    ```sh
-   # docker login <your registry name>.azurecr.io --username <your user name>
+   docker login <your registry name>.azurecr.io --username <your user name>
    Password: <enter your password>
    ```
 1. Push the Cluster WebUI Offline container image.
    ```sh
-   # docker push <your registry name>.azurecr.io/clpwitnessd:4.2.1-200401-1ss
+   docker push <your registry name>.azurecr.io/clpwitnessd:4.2.1-200401-1ss
    ```
 
 ## Deploy Cluster WebUI Offline

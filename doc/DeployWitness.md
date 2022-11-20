@@ -50,7 +50,7 @@
 1. Click **Add** and select **Witness**.
 1. Click **Properties** and set the following parameter.
    - Target Host: clpwitnessd.azurewebsites.net
-   - Service Port: 80
+   - Service Port: 8080
    - See also; 
      - Windows: https://www.manuals.nec.co.jp/contents/system/files/nec_manuals/node/539/W43_RG_EN/W_RG_02.html#interconnect-tab
      - Linux: https://www.manuals.nec.co.jp/contents/system/files/nec_manuals/node/540/L43_RG_EN/L_RG_02.html#interconnect-tab
