@@ -2,7 +2,7 @@
 - The purpose of this project is to deploy EXPRESSCLUSTER containers on Azure App Service.
 
 ## Deploy Witness Server
-- Refer to [Deploy Witness Server](DeployWitness.md)
+- Refer to [Deploy Witness Server](doc/DeployWitness.md)
 
-## Deploy Cluster WebUI Offline on App Service
-- Refer to [Deploy Cluster WebUI Offline](DeployCWO.md).
+## Deploy Cluster WebUI Offline
+- Refer to [Deploy Cluster WebUI Offline](doc/DeployCWO.md).
